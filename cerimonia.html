@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cerimonia e ricevimento - Leonardo e Maria Vittoria</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Leonardo e Maria Vittoria</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="storia.html">La nostra storia</a></li>
+                <li><a href="cerimonia.html">Cerimonia e ricevimento</a></li>
+                <li><a href="listanozze.html">Lista nozze</a></li>
+                <li><a href="rsvp.html">RSVP</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="cerimonia">
+        <h3>Cerimonia e Ricevimento</h3>
+        <p>La cerimonia e il ricevimento si terranno presso <strong>Posta Donini 1579 - Hotel, Ristorante e Spa, Via Deruta, 43, 06132 San Martino In Campo PG</strong> il 14 dicembre 2025.</p>
+
+        <!-- Mappa -->
+        <section class="mappa">
+            <h4>Location</h4>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.1552460823277!2d12.398280211775438!3d43.03816499187154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ea22837d60af5%3A0x1141c55be3149763!2sPosta%20Donini%201579%20-%20Hotel%2C%20Ristorante%20e%20Spa!5e0!3m2!1sit!2sit!4v1750333903640!5m2!1sit!2sit"          
+                width="100%" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+
+        <!-- Meteo -->
+        <section class="meteo">
+            <h4>Meteo previsto</h4>
+            <a class="weatherwidget-io" 
+                href="https://forecast7.com/it/43d0412d40/san-martino-in-campo/" 
+                data-label_1="SAN MARTINO IN CAMPO" 
+                data-label_2="Posta Donini" 
+                data-theme="mountains" >
+                SAN MARTINO IN CAMPO Posta Donini
+            </a>
+            <script>
+                !function(d,s,id){
+                    var js,fjs=d.getElementsByTagName(s)[0];
+                    if(!d.getElementById(id)){
+                        js=d.createElement(s);
+                        js.id=id;
+                        js.src='https://weatherwidget.io/js/widget.min.js';
+                        fjs.parentNode.insertBefore(js,fjs);
+                    }
+                }
+                    (document,'script','weatherwidget-io-js');
+            </script>
+        </section>
+          
+        <!-- Celebranti e Testimoni -->
+ <section class="ritratti">
+  <h3>Chi ci accompagna</h3>
+  <h4>Celebranti</h4>
+  <!-- Celebranti al centro -->
+  <div class="celebranti">
+    <div class="persona">
+      <img src="images/beatrice.jpg" alt="Beatrice" class="ritratto">
+      <h5>Beatrice</h5>
+      <p>Ha visto nascere il nostro amore ed è qui per celebrarlo, sempre pesente per noi, con la sua gioia contagiosa.</p>
+    </div>
+    <div class="persona">
+      <img src="images/francesco.jpg" alt="Francesco" class="ritratto">
+      <h5>Francesco</h5>
+      <p>Il cuore grande e le spalle larghe. Sarà una guida in questo momento speciale.</p>
+    </div>
+  </div>
+
+  <!-- Testimoni -->
+  <div class="testimoni">
+    <!-- Sposa -->
+    <div class="gruppo">
+      <h4>Testimoni della Sposa</h4>
+      <div class="persona">
+        <img src="images/tamara.jpg" alt="Tamara" class="ritratto">
+        <h5>Tamara</h5>
+        <p>"Consorte" da sempre, l'amica con cui condividere ogni passo.</p>
+      </div>
+      <div class="persona">
+        <img src="images/alessandro.jpg" alt="Alessandro" class="ritratto">
+        <h5>Alessandro</h5>
+        <p>Presenza costante nei momenti più importanti, con affetto e una mano pronta ad aiutare.</p>
+      </div>
+    </div>
+
+    <!-- Sposo -->
+    <div class="gruppo">
+      <h4>Testimoni dello Sposo</h4>
+      <div class="persona">
+        <img src="images/martina.jpg" alt="Martina" class="ritratto">
+        <h5>Martina</h5>
+        <p>Una sorella scelta fin dai tempi del liceo, con cui condividere ogni gioia e confidenza.</p>
+      </div>
+      <div class="persona">
+        <img src="images/matteo.jpg" alt="Matteo" class="ritratto">
+        <h5>Matteo</h5>
+        <p>Amico d’infanzia, cresciuti insieme tra giochi e karate, è da sempre un amico fidato.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+        
+    <!-- Timeline -->    
+<section class="timeline-section">
+  <h3>Programma della Giornata</h3>
+  <div class="timeline-container">
+    <div class="timeline-item">
+      <div class="timeline-icon">🎉</div>
+      <div class="timeline-content">
+        <h3>Si comincia!</h3>
+        <span>Ore 11:00</span>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-icon">💍</div>
+      <div class="timeline-content">
+        <h3>Cerimonia</h3>
+        <span>Ufficialmente marito e moglie</span>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-icon">🥂</div>
+      <div class="timeline-content">
+        <h3>Aperitivo</h3>
+        <span>Il primo di tanti Brindisi</span>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-icon">📸</div>
+      <div class="timeline-content">
+        <h3>Foto con gli sposi</h3>
+        <span>Ricordi da custodire</span>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-icon">🍽️</div>
+      <div class="timeline-content">
+        <h3>Pranzo nuziale</h3>
+        <span>La festa continua</span>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-icon">🍰</div>
+      <div class="timeline-content">
+        <h3>Il taglio della torta</h3>
+        <span>Il momento più dolce</span>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-icon">🎶</div>
+      <div class="timeline-content">
+        <h3>Musica</h3>
+        <span>Si balla!</span>
+      </div>
+    </div>
+  </div>
+</section>
