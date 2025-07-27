@@ -242,11 +242,11 @@ footer {
 
 .meteo iframe {
   border: 2px solid #cde0d6; /* bordo salvia chiaro */
-  border-radius: 12px;
+  border-radius: 10px;
   background-color: #f0f4f2;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   display: block;
-  margin: 0 auto; /* centra l'iframe se non è al 100% */
+  margin: 1 0.5; /* centra l'iframe se non è al 100% */
 }
 
 /* ===== People Presentation Section ===== */
