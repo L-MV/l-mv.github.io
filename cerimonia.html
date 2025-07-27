@@ -41,29 +41,33 @@
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </section>
-
         <!-- Meteo -->
         <section class="meteo">
-            <h4>Meteo previsto</h4>
-            <a class="weatherwidget-io" 
-                href="https://forecast7.com/it/43d0412d40/san-martino-in-campo/" 
-                data-label_1="SAN MARTINO IN CAMPO" 
-                data-label_2="Posta Donini" 
-                data-theme="mountains" >
-                SAN MARTINO IN CAMPO Posta Donini
-            </a>
-            <script>
-                !function(d,s,id){
-                    var js,fjs=d.getElementsByTagName(s)[0];
-                    if(!d.getElementById(id)){
-                        js=d.createElement(s);
-                        js.id=id;
-                        js.src='https://weatherwidget.io/js/widget.min.js';
-                        fjs.parentNode.insertBefore(js,fjs);
-                    }
+          <h4>Meteo previsto</h4>
+          <a class="weatherwidget-io"
+             href="https://forecast7.com/it/43d0412d40/san-martino-in-campo/"
+             data-label_1="SAN MARTINO IN CAMPO"
+             data-label_2="Posta Donini"
+             data-theme="mountains">
+             SAN MARTINO IN CAMPO Posta Donini
+          </a>
+        </section>
+
+        <!-- Script del widget -->
+        <script>
+          window.addEventListener('load', function() {
+            !function(d,s,id){
+            var js,fjs=d.getElementsByTagName(s)[0];
+                if(!d.getElementById(id)){
+                    js=d.createElement(s);
+                    js.id=id;
+                    js.src='https://weatherwidget.io/js/widget.min.js';
+                    fjs.parentNode.insertBefore(js,fjs);
                 }
-                    (document,'script','weatherwidget-io-js');
-            </script>
+            }(document,'script','weatherwidget-io-js');
+          });
+        </script>
+        
         </section>
           
         <!-- Celebranti e Testimoni -->
