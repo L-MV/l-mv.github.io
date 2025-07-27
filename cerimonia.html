@@ -46,27 +46,32 @@
         
        <section class="meteo">
   <h4>Meteo previsto</h4>
-  <a class="weatherwidget-io"
-     href="https://forecast7.com/it/43d0412d40/san-martino-in-campo/"
-     data-label_1="SAN MARTINO IN CAMPO"
-     data-label_2="Posta Donini"
-     data-theme="mountains">
-     SAN MARTINO IN CAMPO - Posta Donini
-  </a>
+  <!-- Widget integrato da tempo.com -->
+  <div id="cont_82b219edccf747e95c6b1baceac7bb2d"></div>
+  <script async src="https://www.tiempo.com/wid_loader/82b219edccf747e95c6b1baceac7bb2d"></script>
 </section>
 
-<script>
-  window.addEventListener('load', function () {
-    if (!window.__weatherwidget_init) {
-      const script = document.createElement('script');
-      script.src = 'https://weatherwidget.io/js/widget.min.js';
-      script.id = 'weatherwidget-io-js';
-      document.body.appendChild(script);
-    } else {
-      __weatherwidget_init();
-    }
-  });
-</script>
+<style>
+  /* Stile personalizzato per il widget e il contenitore */
+  .meteo {
+    text-align: center;
+    background-color: #f0f8f5;
+    padding: 1rem;
+    border-radius: 12px;
+    max-width: 320px;
+    margin: 1rem auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-family: 'Helvetica', sans-serif;
+  }
+  .meteo h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  #cont_82b219edccf747e95c6b1baceac7bb2d {
+    width: 100%;
+  }
+</style>
                  
         <!-- Celebranti e Testimoni -->
  <section class="ritratti">
