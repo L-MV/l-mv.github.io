@@ -571,3 +571,60 @@ footer {
   color: #666;
   font-size: 0.95rem;
 }
+
+<!-- Inizio sezione itinerario -->
+.viaggio {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.viaggio h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #52796f;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.step img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.info h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #3f4f47;
+}
+
+.info p {
+  margin: 0;
+  font-size: 1rem;
+  color: #657362;
+}
+ <!-- Fine sezione itinerario -->
