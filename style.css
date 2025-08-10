@@ -574,57 +574,37 @@ footer {
 
 <!-- Inizio sezione itinerario -->
 .viaggio {
-  text-align: center;
-  padding: 2rem 1rem;
+    text-align: center;
+    padding: 2rem 1rem;
 }
 
 .viaggio h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.2rem;
-  margin-bottom: 1.5rem;
-  color: #52796f;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    color: #52796f;
+    margin-bottom: 1rem;
 }
 
-.timeline {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+.mappa-container {
+    position: relative;
+    display: inline-block;
+    max-width: 90%;
 }
 
-.step {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
+.mappa {
+    width: 100%;
+    border-radius: 12px;
 }
 
-.step img {
-  width: 120px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.info {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.icon {
-  width: 32px;
-  height: 32px;
-}
-
-.info h3 {
-  margin: 0;
-  font-size: 1.3rem;
-  color: #3f4f47;
-}
-
-.info p {
-  margin: 0;
-  font-size: 1rem;
-  color: #657362;
+.marker {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    color: #2b2b2b;
+    border: 1px solid #ccc;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
 }
  <!-- Fine sezione itinerario -->
