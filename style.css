@@ -607,4 +607,11 @@ footer {
     transform: translate(-50%, -50%);
     white-space: nowrap;
 }
+
+.titolo-golfo {
+    font-size: 1.5rem;
+    background: none;
+    color: #52796f;
+    font-family: 'Playfair Display', serif;
+}
  <!-- Fine sezione itinerario -->
