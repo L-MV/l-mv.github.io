@@ -603,7 +603,7 @@ footer {
     border-radius: 6px;*/
     font-size: 0.8rem;
     /* color: #2b2b2b; */
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     transform: translate(-5%, -50%);
     white-space: nowrap;
 }
